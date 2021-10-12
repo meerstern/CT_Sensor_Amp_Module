@@ -5,6 +5,7 @@ CT Sensor Amp Module
   * 本基板はクランプ式CTセンサの出力を増幅してRMS値(実効値)に変換する基板です  
   * 交流電流に応じたRMS値(実効値)をアナログ値(直流)として得ることができます  
   * シャント抵抗、RMS値の演算ICを搭載しているため、交流電流の実効値をアナログ値として得ることが可能です  
+  * 実効値をアナログ値として得られるため、マイコン側での高サンプリングAD変換やRMS演算等が不要です  
   * CTセンサ入力アンプ[INA181A1アンプ][1]、RMS換算[LTC1966][2]、低オフセット出力アンプ[MCP6V62][3]を使用しています  
   * シャント抵抗は49.9Ω、10Ω、1Ω、0.3Ωの4種類から選択できます  
   * シャント抵抗、CTセンサによって異なりますが、最小0.1A~最大300A程度まで測定可能です(3.3V電源時)  
@@ -45,8 +46,8 @@ CT Sensor Amp Module
   * RMS演算ICによって真の実効値演算を得ていますが、大きな歪みやノイズが多い場合、正しく測定できない場合があります  
   * 回路上のローパスフィルタで高周波をカットオフしているため、数百Hz以上の電流変化は測定できません  
   
-<img src="https://raw.githubusercontent.com/meerstern/CT_Sensor_Amp_Module/master/CT_Amp1.jpeg" width="360">  
-<img src="https://raw.githubusercontent.com/meerstern/CT_Sensor_Amp_Module/master/CT_Amp2.jpeg" width="360">  
+<img src="https://raw.githubusercontent.com/meerstern/CT_Sensor_Amp_Module/main/IMG/CT_Amp1.jpeg" width="360">  
+<img src="https://raw.githubusercontent.com/meerstern/CT_Sensor_Amp_Module/main/IMG/CT_Amp2.jpeg" width="360">  
 
 
 [1]: https://www.tij.co.jp/product/jp/INA181 "*1"
