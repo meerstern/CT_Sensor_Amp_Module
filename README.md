@@ -46,6 +46,9 @@ CT Sensor Amp Module
   * RMS演算ICによって真の実効値演算を得ていますが、大きな歪みやノイズが多い場合、正しく測定できない場合があります  
   * 回路上のローパスフィルタで高周波をカットオフしているため、数百Hz以上の電流変化は測定できません  
   
+ ## 販売サイト
+  * [スイッチサイエンス][4]
+  
 <img src="https://raw.githubusercontent.com/meerstern/CT_Sensor_Amp_Module/main/IMG/CT_Amp1.jpeg" width="360">  
 <img src="https://raw.githubusercontent.com/meerstern/CT_Sensor_Amp_Module/main/IMG/CT_Amp2.jpeg" width="360">  
 
@@ -53,3 +56,4 @@ CT Sensor Amp Module
 [1]: https://www.tij.co.jp/product/jp/INA181 "*1"
 [2]: https://www.analog.com/jp/products/ltc1966.html "*2"
 [3]: https://www.microchip.com/en-us/product/MCP6V62 "*3"
+[4]: https://www.switch-science.com/products/7559
